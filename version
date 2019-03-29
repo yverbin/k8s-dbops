@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "postgres client:"
+psql 		--version
+echo "mysql client:"
+mysql 		--version
+echo "redis client:"
+redis-cli 	--version
+echo "minio client:"
+mc		-v
+echo "kubectl:"
+kubectl 	version --client
